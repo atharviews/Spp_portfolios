@@ -1,2 +1,1 @@
-web: node server/server.js
-
+web: npm run heroku-postbuild && node server/server.js
